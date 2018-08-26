@@ -1,0 +1,100 @@
+body
+{
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size:16px;
+}
+.input_pannel
+{
+	width: 600px;
+	margin: 0px auto;
+}
+
+.text_lbl
+{
+	width: 120px;
+	line-height: 24px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.text_box
+{
+	line-height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btn_span
+{
+  text-align: center;
+  display: block;
+}
+
+.menu_list
+{
+	display:inline;
+	white-space: nowrap;
+}
+
+.menu_list li
+{
+	padding: 10px 20px;
+	display: inline-block;
+	white-space:nowrap;
+	font-size:24px;
+}
+
+.menu_list li a
+{
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.menu_list li a:visited
+{
+	color: blue;
+}
+
+.lst_tbl
+{
+	border-collapse:collapse;
+	border: 2px solid blue;
+	margin:auto;
+}
+
+.lst_tbl th
+{
+	border: 2px solid blue;
+}
+
+.lst_tbl td
+{
+	border: 1px solid blue;
+}
+
+.inner_form
+{
+	margin:0;
+	padding:10px 30px;
+}
+
+.ftitle
+{
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+	padding:5px 0;
+	margin-bottom:10px;
+	border-bottom:1px solid #ccc;
+}
+.fitem
+{
+	margin-bottom:10px;
+}
+.fitem label
+{
+	display:inline-block;
+	width:80px;
+}

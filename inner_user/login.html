@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cmn-Hans">
+<head>
+<meta charset="utf-8">
+<title>用户登录</title>
+<link rel="stylesheet" href="../css/inner_style.css">
+</head>
+
+<body>
+<div style="height:80px;"></div>
+
+<form action="_checkuser.php" method="post">
+  <fieldset class="input_pannel">
+    <legend>用户登录</legend>
+    <label class="text_lbl" for="edt_name">用户名:</label>
+    <input type="text" class="text_box" size="60" maxlength="30" name="user_name" id="edt_name" required="required"><br>
+    <label class="text_lbl" for="edt_pass">密&nbsp;&nbsp;码:</label>
+    <input type="password" class="text_box" size="60" maxlength="20" name="passwd" id="edt_pass" required="required" onpaste="return false" oncontextmenu="return false" ondrop="return false" ondragenter="return false"><br>
+
+    <span class="btn_span">
+      <input type="submit" value="&nbsp;确&nbsp;定&nbsp;" name="btn_ok">
+    </span>
+  </fieldset>
+</form>
+
+</body>
+</html>
